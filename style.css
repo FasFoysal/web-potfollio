@@ -1,0 +1,158 @@
+*{
+     margin: 0;
+    padding: 0; 
+    font-family: 'Source Sans 3', sans-serif;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgrey;
+}
+.p_1_2{
+   color: orange;
+}
+.a_1_1{
+    width:40%;
+    float: left;
+    margin-left: 6%;
+    padding: 2%;
+   
+}
+.a_1_2{
+    width: 40%;
+    float: left;
+    margin-left: 3%;
+    padding: 2%;
+}
+.a_1_1::after{
+    content: '';
+    display: block;
+    margin: auto;
+}
+.a_1_2 img{
+    width: 100%;
+    
+}
+.a_1_3 {
+   text-decoration: none;
+    padding: 5px 18px ;
+    border-radius: 3px;
+    background-color: orange;
+    color:#fff;
+    font-weight: bolder;
+    background-image: linear-gradient(45deg , yellow , orange );
+}
+.a_1{
+    background-image: url("image/top-banner.png"); 
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+ section{
+    height: 500px; 
+    padding-top: 40px;
+} 
+.a_1_0{
+    margin-top: 10px;
+}
+/* .............. */
+.a_2_2{
+    float: left;
+    width: 40%;
+}
+.a_2_2 img{
+    width: 80%;
+    
+}
+.a_2_3{
+    float: left;
+    width: 40%;
+   padding: 0 3%;
+   margin-left: 2%;
+}
+.a_2_2::after{
+    content: '';
+    display: block;
+    margin: auto;
+}
+.a_2_3 a{
+    text-decoration: none;
+    padding: 5px 18px ;
+    border-radius: 3px;
+    background-color: orange;
+    color:#fff;
+    font-weight: bolder;
+    background-image: linear-gradient(45deg , yellow , orange );
+}
+.a_2_0{
+    margin-top:10px;
+}
+.a_2_1{
+    background-image: url(image/dream-bg.png);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.a_3_0{
+    box-shadow: 10px 10px 40px gray;
+    height: 70%;
+    background-color: #fff;
+}
+.a_3_{
+    background-image: url("image/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full_1{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg ,tomato,rgb(211, 95, 41) )10;
+}
+#full_2{
+    border-left: 7px solid ;
+    border-image: linear-gradient(180deg ,blue , cyan)10;
+}
+
+/* ............ */
+@media only screen and (max-width:700px){
+    .a_3_0{
+        height: 85%;
+    } 
+    .a_3_0 h2{
+        font-size:200% ;
+    }
+    section{
+        height: 600px;
+    }
+}
+@media only screen and (max-width:500px){
+    .a_1_1 {
+        margin-left: 4%;
+        padding: 1%;
+    }
+    h1{
+        font-size: 150%;
+    }
+    h2{
+        font-size: 100%;
+    }
+.a_3_0 h2{
+    font-size: 130%;
+}
+.a_3_0 h3{
+    font-size: 80%;
+}
+.a_3_0{
+    height: 60%;
+} 
+.a_2_3 a {
+    padding: 0px 2px;
+}
+section{
+    height: 650px;
+}
+}
