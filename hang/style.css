@@ -1,0 +1,29 @@
+
+h2{
+    background-color: rgb(115, 115, 206);
+    font-size: 40px;
+    color: rgb(18, 214, 51);
+    width: 40%;
+    padding: 40px 20px ;
+    border-radius: 50px;
+   margin: auto;
+    height:50px;
+    width: 80%;
+    margin: 10px ;
+    padding: 20px 20px;
+    
+    background: repeating-linear-gradient(50deg, 
+    #2980b9,#27ae60,#8e44ad,#e20909,#0984e3,#6c5ce7,
+    #be2edd,#FFC312,#EA2027,#FFC312,#1B1464
+   
+    );
+
+   animation-direction: alternate;
+   animation: gradient 60s  linear infinite;
+   background-size: 1000% 1000%;
+}
+@keyframes gradient{
+    100%{background-position:1000%;}
+    100%{background-position:1000%;}
+}
+    

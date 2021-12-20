@@ -1,0 +1,8 @@
+*pc hang korar uppy = use this
+
+<?php 
+$cricket = "1";
+while($cricket < 100 ){
+    echo "ami hang hoia galam" . '<br>';
+}
+?>
